@@ -1,6 +1,5 @@
 
 $(document).ready(function () {
-        $('.modal').modal();
   function checkIfSignIn(){
     $.get('/signedInStatus',function(data){
       sessionStorage.setItem("signedIn", data.status)
