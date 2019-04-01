@@ -1,6 +1,6 @@
 
 $(document).ready(function () {
-
+        $('.modal').modal();
   function checkIfSignIn(){
     $.get('/signedInStatus',function(data){
       sessionStorage.setItem("signedIn", data.status)
@@ -9,12 +9,12 @@ $(document).ready(function () {
   }
 
   $(function () {
-      $('#index-banner').width($(window).width()).height($(window).height()-64)
+      $('#background').width($(window).width()).height($(window).height()-64)
       $('.parallax').parallax();
   });
   
   $(window).resize(function()
   {
-      $('#index-banner').width($(window).width()).height($(window).height()-64)
+      $('#background').width($(window).width()).height($(window).height()-64)
   });
 });
