@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <nav class="black"  style="background: transparent" role="navigation">
+        <div style="box-shadow:none;background-color:transparent" class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">Student Share</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="waves-effect waves-light red" href="#">Sign Up</a></li>
+
+                <li><a class ="waves-effect waves-light" href="#">Login</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#">Navbar Link</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <div id="background" style="background-image:url('images/landing.jpg')">
+        <div class="container" >
+
+            <div id="content2" class="row">
+                <div style="padding-top: 20%; width: 950px" class="col offset-s4">
+                        <div class="row">
+                            <div class="col s12 m6">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <span class="card-title"></span>
+                                        <p>Please select an option:</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <button class="btn waves-effect waves-light red modal-trigger" id="signUp">
+                                            Join a public room
+                                        </button>
+                                        <button class="btn waves-effect waves-light" href="#" id="login">
+                                            Create a private room
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal"></div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/init.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/credentials.js"></script>
+</body>
+
+</html>
