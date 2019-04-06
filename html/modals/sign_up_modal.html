@@ -1,44 +1,51 @@
 <!-- Modal Structure -->
-    <div class="modal-content">
-        <h4>Sign Up</h4>
-        <p>Please provide the following information</p>
-        <div class="row">
-            <form class="col s12">
-                <div class="row">
-                    <div class="input-field col s6">
-                        <i class="material-icons prefix">account_circle</i>
-                        <input id="first_name" type="text" class="validate">
-                        <label for="first_name">First Name</label>
-                    </div>
-                    <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">Last Name</label>
-                    </div>
+<div class="modal-content">
+    <h4>Sign Up</h4>
+    <p>Please provide the following information</p>
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="first_name_signUp" type="text" class="validate">
+                    <label for="first_name">First Name</label>
                 </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">email</i>
-                        <input id="email" type="email" class="validate">
-                        <label for="email">Email</label>
-                    </div>
+                <div class="input-field col s6">
+                    <input id="last_name_signUp" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
                 </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">vpn_key</i>
-                        <input id="password" type="password" class="validate">
-                        <label for="password">Password</label>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">email</i>
+                    <input id="emailSignUp" type="email" class="validate">
+                    <label for="email">Email</label>
                 </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix">school</i>
-                        <input id="university" type="text" class="autocomplete">
-                        <label for="University">University Name</label>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">vpn_key</i>
+                    <input id="passwordSignUp" type="password" class="validate">
+                    <label for="password">Password</label>
                 </div>
-            </form>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">school</i>
+                    <input id="university" type="text" class="autocomplete">
+                    <label for="University">University Name</label>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="modal-footer">
+    <div class="row">
+        <div class="col s6">
+            <span class="red-text" id="errorSignUp"></span>
+        </div>
+        <div class="col s6">
+            <a href="#" style="margin-right: 5%" id="signUpBtn" class="btn green waves-effect waves-green">Submit</a>
         </div>
     </div>
-<div class="modal-footer" >
-        <a href="#" style="margin-right: 5%" id="signUp" class="btn green modal-close waves-effect waves-green">Submit</a>
-    </div>
+</div>

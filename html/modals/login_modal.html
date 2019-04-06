@@ -7,14 +7,14 @@
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="material-icons prefix">email</i>
-                        <input id="email" type="email" class="validate">
+                        <input id="emailLogin" type="email" class="validate">
                         <label for="email">Email</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="material-icons prefix">vpn_key</i>
-                        <input id="password" type="password" class="validate">
+                        <input id="passwordLogin" type="password" class="validate">
                         <label for="password">Password</label>
                     </div>
                 </div>
@@ -22,5 +22,12 @@
         </div>
     </div>
     <div class="modal-footer">
-        <a href="#" style="margin-right: 5%" id="login" class="btn green modal-close waves-effect waves-green">Submit</a>
+        <div class="row">
+            <div class="col s6">
+                    <span class="red-text" id="errorLogin"></span>
+            </div>
+            <div class="col s6">
+                    <a href="#" id="loginBtn" style="margin-right: 5%" class="btn green waves-effect waves-green">Submit</a>
+            </div>
+        </div>
     </div>
