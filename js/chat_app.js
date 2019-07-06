@@ -302,15 +302,15 @@ $(document).ready(function () {
 
     //Views for a message to chat
     function addMessage(message, name) {
-        var message = "<div class='row valign-wrapper' style='margin-bottom: 0px;'>"
-            + "<div class='col s8'>"
-            + '<div class="card-panel" style="margin: 10px;margin-left: 5px;padding:10px">'
-            + '<p class="grey-text" style="margin: 0px">' + name + '</p><span id="content">' + message
-            + '</span><i id="clipboard" class="right-align material-icons right">star</i>'
-            + "</div>"
-            + "</div>"
-            + '<div class="col s3"></div>'
-            + "</div>"
+        var message = `<div class='row valign-wrapper' style='margin-bottom: 0px;'>"
+            <div class='col s8'>
+            <div class="card-panel" style="margin: 10px;margin-left: 5px;padding:10px">
+            <p class="grey-text" style="margin: 0px">' + name + '</p><span id="content">` + message
+            `</span><i id="clipboard" class="right-align material-icons right">star</i>
+            </div>
+            </div>
+            <div class="col s3"></div>
+            </div>`
         return message;
     }
 

@@ -25,15 +25,11 @@ The test cases explained in the project report can be found under **/tests/test_
 
 You will need to install Selenium as well as a WebDriver of your choice (also available via Selenium site) if you want to execute them.
 
-### Live Site Link
-http://68.183.207.31:5000/
 
 ## Authors
 
 * **Ebrahim Merchant**
 * **Devante Wilson**
-* **Sikandar Shahbaz**
-* **Emin Avanessian-Zadeh**
 
 
 
