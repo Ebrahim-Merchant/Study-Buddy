@@ -30,6 +30,7 @@ You will need to install Selenium as well as a WebDriver of your choice (also av
 
 * **Ebrahim Merchant**
 * **Devante Wilson**
+* **Sikandar Shahbaz**
 
 
 
